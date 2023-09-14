@@ -311,6 +311,16 @@ footer nav ul li a {
     gap: 40px;
 }
 
+.designed {
+    color: #666;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
 .footer_design {
     background: var(--Gradient-Heading, linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%));
     background-clip: text;
@@ -322,6 +332,7 @@ footer nav ul li a {
     font-weight: 400;
     line-height: 26px;
 }
+
 
 
 
