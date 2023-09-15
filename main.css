@@ -249,13 +249,13 @@ header nav ul li a {
 .footer {
     display: flex;
     flex-direction: column;
+    position: fixed;
     gap: 30px;
     margin-bottom: 70px;
 }
 
 .footer_div {
     width: 1193px;
-    /* display: flex; */
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
@@ -329,8 +329,39 @@ footer nav ul li a {
     font-family: Poppins;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400px;
     line-height: 26px;
+    justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+    .Pavan_MG {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        width: 60%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .Pavan_MG {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .Pavan_MG {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width: auto;
+    }
 }
 
 
