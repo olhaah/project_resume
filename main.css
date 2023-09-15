@@ -394,38 +394,6 @@ footer nav ul li a {
     }
 }
 
-@media (max-width: 1200px) {
-    .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 10px;
-        width: 60%;
-    }
-}
-
-@media (max-width: 1024px) {
-    .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: column;
-        gap: 10px;
-    }
-}
-
-@media (max-width: 767px) {
-    .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: column;
-        width: auto;
-    }
-}
-
-
-
 
 
 
