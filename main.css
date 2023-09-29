@@ -394,8 +394,10 @@ div.expirience_block>p {
 }
 
 .mail_us {
+    width: 1193px;
     margin-top: 200px;
     margin-bottom: 200px;
+    flex-direction: column;
 }
 
 .questions {
@@ -408,7 +410,6 @@ div.expirience_block>p {
     font-weight: 700;
     line-height: 70px;
     letter-spacing: -1px;
-    margin-left: 170px;
 }
 
 .e_mail {
@@ -425,12 +426,11 @@ div.expirience_block>p {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-left: 270px;
 }
 
 .footer {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     position: fixed;
     gap: 30px;
     margin-bottom: 70px;
@@ -611,7 +611,6 @@ footer nav ul li a {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        flex-direction: column;
         width: auto;
     }
 }
@@ -631,6 +630,7 @@ footer nav ul li a {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        flex-direction: column;
         gap: 10px;
         width: 60%;
     }
