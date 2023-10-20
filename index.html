@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,7 +24,16 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="main.css">
 </head>
-
+<script>
+    const handlechange = (ischecked) => {
+        if (ischecked) {
+            document.body.setAttribute('dark', '');
+        }
+        else {
+            document.body.removeAttribute('dark');
+        }
+    }
+</script>
 <body>
     <header>
         <div class="container">
@@ -48,6 +58,12 @@
                 </div>
                 <div class="element_linkedin">
                     <img src="./img/linkedin.svg" alt="">
+                </div>
+                <div class="dark_mode">Dark mode
+                    <label class="switch">
+                        <input type="checkbox" class="switch-input" onchange="handlechange(this.checked)">
+                        <span class="switch-slider"></span>
+                    </label>
                 </div>
             </div>
         </div>
